@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео монтаж</title>
+    <link rel="shortcut icon" href="https://img.pikbest.com/png-images/20250128/professional-technical-service-logo-design-for-your-business_11464354.png!sw800">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+             border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+    <div class="logo">
+        <img src="https://img.pikbest.com/png-images/20250128/professional-technical-service-logo-design-for-your-business_11464354.png!sw800" width="60" height="60">
+        Технически & IT услуги
+    </div>
+
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Начало</a></li>
+
+        <!-- ТЕХНИЧЕСКИ -->
+        <li class="dropdown">
+            <a href="#">Технически услуги ▼</a>
+            <div class="dropdown-content">
+                <a href="pc-clean.html">Профилактика на компютри</a>
+                <a href="ps-clean.html">Профилактика на PlayStation</a>
+                <a href="os-install.html">Преинсталация и инсталация на ОС</a>
+            </div>
+        </li>
+
+        <!-- IT -->
+        <li class="dropdown">
+            <a href="#">IT услуги ▼</a>
+            <div class="dropdown-content">
+                <a href="video-edit.html">Видео монтаж</a>
+                <a href="web-dev.html">Разработка на сайтове</a>
+                <a href="graphic-design.html">Графичен дизайн</a>
+                <a href="thumbnails.html">Тъмбнейл дизайн</a>
+                <a href="presentations.html">Презентации и лога</a>
+            </div>
+        </li>
+
+        <li><a href="contact.html">Контакт</a></li>
+    </ul>
+</nav>
+
+<script>
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
+</script>
+    <div class="slider">
+        <div class="slides fade" style="background-image:url('https://static-cse.canva.com/blob/1145314/Montagevideo.jpg');"></div>
+</header>
+<section class="center-text">
+    <h1>Примерна поръчка на клиент</h1>
+</section>
+
+<section class="video-section">
+    <video width="100%" height="auto" autoplay loop muted>
+        <source src="Video Edit.mkv" type="video/mp4">
+        Вашият браузър не поддържа видео елементи.
+    </video>
+<section class="testimonials">
+    <h2>Доволни клиенти</h2>
+
+    <div class="carousel">
+
+        <div class="testimonial-card active">
+            <img src="https://i.pravatar.cc/150?img=61" class="client-img">
+            <h3>Николай Христов</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"Монтажът на видеото беше уникален! Много професионално."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://media.istockphoto.com/id/1387060932/photo/portrait-of-woman-on-white-background-stock-photo.jpg?s=612x612&w=0&k=20&c=jR3ZZt4I9GAHxebkg9zZCsJ6B-VHfKlCd3i7kAHnEHk=" class="client-img">
+            <h3>Стефания Жекова</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"Ефектите и цветовете са направени страхотно. Получих точно това, което исках."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://i.pravatar.cc/150?img=65" class="client-img">
+            <h3>Павел Иванчев</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"Видеото изглежда супер професионално и модерно."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://media.istockphoto.com/id/1320811419/photo/head-shot-portrait-of-confident-successful-smiling-indian-businesswoman.jpg?s=612x612&w=0&k=20&c=bCUTB8vd8MnzZFIq-x645-SmLNk2sQzOvOvWCPGDfZ4=" class="client-img">
+            <h3>Елиза Маринова</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"Получих готов клип за YouTube за по-малко от ден."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://i.pravatar.cc/150?img=69" class="client-img">
+            <h3>Добромир Ставрев</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"Уникално качество! Ще поръчам отново със сигурност."</p>
+        </div>
+
+    </div>
+
+    <div class="carousel-buttons">
+        <button onclick="prevSlide()">◀</button>
+        <button onclick="nextSlide()">▶</button>
+    </div>
+</section>
+
+<section class="services">
+    <h1>Видео монтаж</h1>
+    <p>Редакция и монтаж на видеа за YouTube, социални мрежи или лични проекти.</p>
+    
+    <div class="service-grid">
+        <div class="service-box">
+            <h2>Монтаж на кадри</h2>
+            <p>Подреждане, изрязване и синхронизация на видео съдържание.</p>
+        </div>
+        <div class="service-box">
+            <h2>Добавяне на ефекти</h2>
+            <p>Транзишъни, цветова корекция, графики и текстове.</p>
+        </div>
+        <div class="service-box">
+            <h2>Аудио обработка</h2>
+            <p>Добавяне на музика, озвучаване и изчистване на шумове.</p>
+        </div>
+        <div class="service-box">
+            <h2>Експорт и оптимизация</h2>
+            <p>Подготовка на видео за YouTube или социални мрежи.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h2>Контакти</h2>
+    <p>Телефон: +359883303421</p>
+    <p>Email: cvetilianmarikov@gmail.com</p>
+    <p>Цветилиан Мариков</p>
+</footer>
+<script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+    let slides = document.getElementsByClassName("slides");
+    for (let i = 0; i < slides.length; i++) slides[i].style.display = "none";
+    slideIndex++;
+    if (slideIndex > slides.length) slideIndex = 1;
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4000);
+}
+</script>
+<script>
+let index = 0;
+const cards = document.querySelectorAll(".testimonial-card");
+
+function showSlide(i) {
+    cards.forEach(card => card.classList.remove("active"));
+    cards[i].classList.add("active");
+}
+
+function nextSlide() {
+    index = (index + 1) % cards.length;
+    showSlide(index);
+}
+
+function prevSlide() {
+    index = (index - 1 + cards.length) % cards.length;
+    showSlide(index);
+}
+
+/* Автоматично сменяне на клиентите */
+setInterval(nextSlide, 5000);
+</script>
+</body>
+</html>
