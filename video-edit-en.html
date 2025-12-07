@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editing</title>
+    <link rel="shortcut icon" href="https://img.pikbest.com/png-images/20250128/professional-technical-service-logo-design-for-your-business_11464354.png!sw800">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        img {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+  <div class="lang-panel">
+    <button class="lang-btn" data-lang="bg" onclick="window.location.href='video-edit.html'">
+      <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1200px-Flag_of_Bulgaria.svg.png" alt="BG">
+    </button>
+
+    <button class="lang-btn active" data-lang="en">
+      <img class="flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" alt="EN">
+    </button>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://img.pikbest.com/png-images/20250128/professional-technical-service-logo-design-for-your-business_11464354.png!sw800" width="45" class="me-2" />
+        <span class="fw-bold">Technical & IT Services</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index-en.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="pc-clean-en.html">PC Maintenance</a></li>
+          <li class="nav-item"><a class="nav-link" href="ps-clean-en.html">PlayStation Maintenance</a></li>
+          <li class="nav-item"><a class="nav-link" href="os-install-en.html">OS Installation</a></li>
+          <li class="nav-item"><a class="nav-link active" href="video-edit-en.html">Video Editing</a></li>
+          <li class="nav-item"><a class="nav-link" href="web-dev-en.html">Web Development</a></li>
+          <li class="nav-item"><a class="nav-link" href="presentations-en.html">Presentations & Logos</a></li>
+          <li class="nav-item"><a class="nav-link" href="graphic-design-en.html">Graphic Design</a></li>
+          <li class="nav-item"><a class="nav-link" href="thumbnails-en.html">Thumbnails</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact-en.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="slider">
+      <div class="slides fade" style="background-image:url('https://static-cse.canva.com/blob/1145314/Montagevideo.jpg');"></div>
+  </div>
+</header>
+
+<section class="center-text">
+    <h1>Sample Client Order</h1>
+</section>
+
+<section class="video-section">
+    <video width="100%" height="auto" autoplay loop muted>
+        <source src="Video Edit.mkv" type="video/mp4">
+        Your browser does not support video.
+    </video>
+</section>
+
+<section class="testimonials">
+    <h2>Happy Clients</h2>
+    <div class="carousel">
+
+        <div class="testimonial-card active">
+            <img src="https://i.pravatar.cc/150?img=61" class="client-img">
+            <h3>Nikolay Hristov</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"The video editing was amazing! Very professional."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://media.istockphoto.com/id/1387060932/photo/portrait-of-woman-on-white-background-stock-photo.jpg?s=612x612&w=0&k=20&c=jR3ZZt4I9GAHxebkg9zZCsJ6B-VHfKlCd3i7kAHnEHk=" class="client-img">
+            <h3>Stefania Zhekova</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"The effects and colors are excellent. I got exactly what I wanted."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://i.pravatar.cc/150?img=65" class="client-img">
+            <h3>Pavel Ivanchev</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"The video looks super professional and modern."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://media.istockphoto.com/id/1320811419/photo/head-shot-portrait-of-confident-successful-smiling-indian-businesswoman.jpg?s=612x612&w=0&k=20&c=bCUTB8vd8MnzZFIq-x645-SmLNk2sQzOvOvWCPGDfZ4=" class="client-img">
+            <h3>Eliza Marinova</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"I received a ready-to-use YouTube clip in less than a day."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://i.pravatar.cc/150?img=69" class="client-img">
+            <h3>Dobromir Stavrev</h3>
+            <div class="stars">★★★★★</div>
+            <p class="comment">"Unique quality! I will definitely order again."</p>
+        </div>
+
+    </div>
+
+    <div class="carousel-buttons">
+        <button onclick="prevSlide()">◀</button>
+        <button onclick="nextSlide()">▶</button>
+    </div>
+</section>
+
+<section class="services">
+    <h1>Video Editing</h1>
+    <p>Editing and montage of videos for YouTube, social media, or personal projects.</p>
+    
+    <div class="service-grid">
+        <div class="service-box">
+            <h2>Clip Editing</h2>
+            <p>Arrangement, trimming, and synchronization of video content.</p>
+        </div>
+        <div class="service-box">
+            <h2>Adding Effects</h2>
+            <p>Transitions, color correction, graphics, and text.</p>
+        </div>
+        <div class="service-box">
+            <h2>Audio Processing</h2>
+            <p>Adding music, voiceover, and noise reduction.</p>
+        </div>
+        <div class="service-box">
+            <h2>Export & Optimization</h2>
+            <p>Preparing videos for YouTube or social media.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h2>Contact</h2>
+    <p>Phone: +359883303421</p>
+    <p>Email: cvetilianmarikov@gmail.com</p>
+    <p>Cvetilian Marikov</p>
+</footer>
+
+<script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+    let slides = document.getElementsByClassName("slides");
+    for (let i = 0; i < slides.length; i++) slides[i].style.display = "none";
+    slideIndex++;
+    if (slideIndex > slides.length) slideIndex = 1;
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4000);
+}
+
+let index = 0;
+const cards = document.querySelectorAll(".testimonial-card");
+
+function showSlide(i) {
+    cards.forEach(card => card.classList.remove("active"));
+    cards[i].classList.add("active");
+}
+
+function nextSlide() {
+    index = (index + 1) % cards.length;
+    showSlide(index);
+}
+
+function prevSlide() {
+    index = (index - 1 + cards.length) % cards.length;
+    showSlide(index);
+}
+
+setInterval(nextSlide, 5000);
+</script>
+
+</body>
+</html>
